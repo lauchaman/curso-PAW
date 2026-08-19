@@ -7,7 +7,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ddcc00 0%, #764ba2 100%);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -92,7 +92,7 @@ label {
 .form-group > label {
     font-size: 1em;
     color: #0f172a;
-    border-left: 3px solid #667eea;
+    border-left: 3px solid #ddcc00;
     padding-left: 12px;
 }
 
@@ -112,7 +112,7 @@ input[type="email"] {
 input[type="text"]:focus,
 input[type="email"]:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #ddcc00;
     background: white;
     box-shadow: 0 0 0 5px rgba(102, 126, 234, 0.15);
 }
@@ -172,7 +172,7 @@ input:focus::placeholder {
 .radio-item:hover,
 .checkbox-item:hover {
     background: linear-gradient(135deg, #f1f5f9, #ffffff);
-    border-color: #667eea;
+    border-color: #ddcc00;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(102, 126, 234, 0.15);
 }
@@ -185,7 +185,7 @@ input:focus::placeholder {
 }
 
 .radio-item input[type="radio"] {
-    accent-color: #667eea;
+    accent-color: #ddcc00;
 }
 
 .checkbox-item input[type="checkbox"] {
@@ -204,7 +204,7 @@ input:focus::placeholder {
 
 /* ===== BOTÓN DE ENVÍO ===== */
 .btn-submit {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #ddcc00, #764ba2);
     color: white;
     border: none;
     padding: 18px 30px;
@@ -237,7 +237,7 @@ input:focus::placeholder {
 .btn-submit:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 30px rgba(102, 126, 234, 0.6);
-    background: linear-gradient(45deg, #764ba2, #667eea);
+    background: linear-gradient(45deg, #764ba2, #ddcc00);
 }
 
 .btn-submit:hover::before {
@@ -373,7 +373,7 @@ input:invalid:not(:placeholder-shown) {
 
 /* Efecto de foco en todo el grupo */
 .form-group:focus-within label {
-    color: #667eea;
+    color: #ddcc00;
 }
 
 /* Línea decorativa */
@@ -395,7 +395,7 @@ html {
 
 /* Selección de texto */
 ::selection {
-    background: #667eea;
+    background: #ddcc00;
     color: white;
 }
 
