@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h2 >Complete este formulario</h2>
+    <p>Por favor <span class="enfasis"> rellene todos los campos</span> para recibir más información</p>
+
+  <form action="" method="post">
+    <div class="section">
+        
+        <div>
+        <label for="nombre">Ingrese su nombre</label>
+        <input type="text" placeholder="ingrese su nombre" name="nombre">
+        </div>
+
+        <div>
+            <label for="apellido">Ingrese su apellido</label>
+            <input type="text" placeholder="ingrese su apellido" name="apellido">
+        </div>
+
+        <div>
+            <label for="email">Ingrese su email</label>
+            <input type="email" placeholder="ingrese su email" name="email">
+        </div>
+
+        <div class="form-group">
+            <label>Edad</label>
+            <div class="radio-group">
+                
+                <label class="radio-item">
+                    <input type="radio" name="edad" value="menor"> Menor de 18 años
+                </label>
+               
+                <label class="radio-item">
+                    <input type="radio" name="edad" value="18-30"> 18 - 30 años
+                </label>
+                
+                <label class="radio-item">
+                    <input type="radio" name="edad" value="31-45"> 31 - 45 años
+                </label>
+                
+                <label class="radio-item">
+                    <input type="radio" name="edad" value="46-60"> 46 - 60 años
+                </label>
+                
+                <label class="radio-item">
+                    <input type="radio" name="edad" value="mas60"> Más de 60 años
+                </label>
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Intereses</label>
+            <div class="checkbox-group">
+                
+                <label class="checkbox-item">
+                    <input type="checkbox" name="intereses" vale="Deportes">Deportes
+                </label>
+               
+                <label class="checkbox-item">
+                    <input type="checkbox" name="intereses" vale="Arte">Arte
+                </label>
+                
+                <label class="checkbox-item">
+                    <input type="checkbox" name="intereses" vale="Música">Música
+                </label>
+                
+                <label class="checkbox-item">
+                    <input type="checkbox" name="intereses" vale="Finanzas">Finanzas
+                </label>
+                
+                <label class="checkbox-item">
+                    <input type="checkbox" name="intereses" vale="Informatica">Informatica
+                </label>
+
+            </div>
+        
+        </div>
+
+        <button type="submit" class="btn-submit" name="enviar" value="enviar">
+            Enviar datos
+        </button>
+
+    </div>
+  </form>  
+</body>
+</html>
